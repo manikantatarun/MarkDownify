@@ -1,0 +1,59 @@
+/* MarkdownTools.css */
+.markdown-tools {
+    font-family: Arial, sans-serif;
+  }
+  
+  .tools-heading {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .category {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-header.active {
+    background-color: #e2e8f0;
+  }
+  
+  .category-header:hover {
+    background-color: #e2e8f0;
+  }
+  
+  .category-header h3 {
+    margin: 0;
+  }
+  
+  .arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-components {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-components li {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-components li:hover {
+    background-color: #e2e8f0;
+  }
+  
