@@ -1,0 +1,8 @@
+name = "MarkDownify"
+type = "javascript"
+account_id = "$CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
