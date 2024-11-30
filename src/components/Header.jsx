@@ -4,7 +4,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>README Maker</h1>
+      <h1>README Maker from Manikanta</h1>
     </header>
   );
 }
