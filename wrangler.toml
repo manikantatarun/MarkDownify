@@ -1,7 +1,8 @@
 name = "markdownify"
 type = "javascript"
-account_id = "$CLOUDFLARE_ACCOUNT_ID"
+account_id = "0670e3cdfbfb4e773061ea6481dfd871"
 workers_dev = true
+compatibility_date = "2024-11-01"
 
 [site]
 bucket = "./build"
