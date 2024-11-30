@@ -1,9 +1,9 @@
-# name = "MarkDownify"
-# type = "javascript"
-# account_id = "$CLOUDFLARE_ACCOUNT_ID"
-# workers_dev = true
+name = "MarkDownify"
+type = "javascript"
+account_id = "$CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
 
-# [site]
-# bucket = "./build"
-# entry-point = "workers-site"
-assets = { directory = "./public", binding = "ASSETS", html_handling = "force-trailing-slash", not_found_handling = "404-page" }
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+# assets = { directory = "./public", binding = "ASSETS", html_handling = "force-trailing-slash", not_found_handling = "404-page" }
